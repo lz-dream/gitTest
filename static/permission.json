@@ -1,0 +1,40 @@
+{
+  "menu": [
+    {
+      "menu_customer": [
+        {
+          "name": "账户信息",
+          "path": "/AccountInfo",
+          "children": [
+            {
+              "path": "/UserInfo",
+              "name": "个人信息"
+            },
+            {
+              "path": "/MobileBind",
+              "name": "手机绑定管理"
+            }
+          ]
+        },
+        {
+          "name": "业务办理",
+          "path": "/BussinessHandle",
+          "children": [
+            {
+              "path": "/ElectricReport",
+              "name": "电量申报"
+            },
+            {
+              "path": "/ElectricReportSearch",
+              "name": "电量申报查询"
+            },
+            {
+              "path": "/BillingInfo",
+              "name": "结算信息查询"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
