@@ -11,6 +11,7 @@ import axios from 'axios'
 import VueAxios from 'vue-axios'
 import utils from './utils'
 
+//git test
 Vue.prototype.$ajax = axios
 Vue.prototype.$utils=utils
 
